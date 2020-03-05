@@ -1,1 +1,125 @@
 This is my First Text File
+
+meet1@LAPTOP-DL3L97D3 MINGW64 ~
+$ cd
+
+meet1@LAPTOP-DL3L97D3 MINGW64 ~
+$ cd /c
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             hp/                     Ruby26-x64/
+'$SysReset'/                INSTALL.LOG             swapfile.sys
+'$WINDOWS.~BT'/             Intel/                  SWSetup/
+'$WinREAgent'/              kingsoft/              'System Volume Information'/
+ adobeTemp/                 MSOCache/               system.sav/
+ apache/                    pagefile.sys            TDM-GCC-64/
+ BOOT/                      PerfLogs/               Users/
+ Config.Msi/               'Program Files'/         Windows/
+'Documents and Settings'@  'Program Files (x86)'/   Windows.old/
+ DumpStack.log.tmp          ProgramData/            xampp/
+ hiberfil.sys               Recovery/
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             hiberfil.sys            Recovery/
+'$SysReset'/                hp/                     Ruby26-x64/
+'$WINDOWS.~BT'/             INSTALL.LOG             swapfile.sys
+'$WinREAgent'/              Intel/                  SWSetup/
+ adobeTemp/                 kingsoft/              'System Volume Information'/
+ apache/                    MSOCache/               system.sav/
+ BOOT/                      pagefile.sys            TDM-GCC-64/
+ Config.Msi/                PerfLogs/               Users/
+'Documents and Settings'@  'Program Files'/         Windows/
+ DumpStack.log.tmp         'Program Files (x86)'/   Windows.old/
+ Git/                       ProgramData/            xampp/
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c
+$ cd Git/
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git
+$ ls
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git
+$ git config --global user.name "Mrugank282"
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git
+$ git config --global user.email mrugankdave1998@gmail.com
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git
+$ git clone https://github.com/Mrugank282/TestGit.git
+Cloning into 'TestGit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 611 bytes | 2.00 KiB/s, done.
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git
+$ ls
+TestGit/
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git
+$ cd TestGit/
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ ls
+README.md
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ ls
+README.md  text.txt
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ git add text.txt
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   text.txt
+
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ git commit -m "first comment" test.txt
+error: pathspec 'test.txt' did not match any file(s) known to git
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ git commit -m "first comment" text.txt
+[master 1a0570c] first comment
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text.txt
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ git push -u origin master
+fatal: TaskCanceledException encountered.
+   A task was canceled.
+l
+..
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Mrugank282/TestGit.git/'
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ l
+bash: l: command not found
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ ..
+bash: ..: command not found
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Mrugank282/TestGit.git
+   01df11d..1a0570c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+meet1@LAPTOP-DL3L97D3 MINGW64 /c/Git/TestGit (master)
+$
